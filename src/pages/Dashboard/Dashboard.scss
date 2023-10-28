@@ -1,0 +1,21 @@
+.dashboard {
+  &__title {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  &__ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  &__li {
+    text-align: left;
+    min-width: 350px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+}
+

@@ -1,0 +1,31 @@
+.inventory {
+
+  &__title {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  &__ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__li {
+    text-align: left;
+    min-width: 350px;
+    padding: 10px;
+    border: 1px solid black;
+    position: relative;
+  }
+
+  &__li__close-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}
